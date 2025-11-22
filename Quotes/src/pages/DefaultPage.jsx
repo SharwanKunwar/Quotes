@@ -1,7 +1,5 @@
-import React from 'react'
-import { FlipWordsDemo } from '../components/ui/FlipWordsDemo'
-import { SVGMaskEffectDemo } from '../components/ui/SVGMaskEffectDemo'
 
+import { SVGMaskEffectDemo } from '../components/ui/SVGMaskEffectDemo'
 function DefaultPage() {
   return (
     <>
