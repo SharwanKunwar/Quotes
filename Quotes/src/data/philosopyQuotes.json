@@ -1,0 +1,22 @@
+[
+  { "id": 1, "quote": "The unexamined life is not worth living.", "author": "Socrates" },
+  { "id": 2, "quote": "I think, therefore I am.", "author": "René Descartes" },
+  { "id": 3, "quote": "Happiness depends upon ourselves.", "author": "Aristotle" },
+  { "id": 4, "quote": "He who has a why to live can bear almost any how.", "author": "Friedrich Nietzsche" },
+  { "id": 5, "quote": "Man is the measure of all things.", "author": "Protagoras" },
+  { "id": 6, "quote": "The only true wisdom is in knowing you know nothing.", "author": "Socrates" },
+  { "id": 7, "quote": "Life must be understood backward. But it must be lived forward.", "author": "Søren Kierkegaard" },
+  { "id": 8, "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.", "author": "Aristotle" },
+  { "id": 9, "quote": "Happiness is not an ideal of reason but of imagination.", "author": "Immanuel Kant" },
+  { "id": 10, "quote": "Liberty means responsibility. That is why most men dread it.", "author": "George Bernard Shaw" },
+  { "id": 11, "quote": "Man is condemned to be free.", "author": "Jean-Paul Sartre" },
+  { "id": 12, "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.", "author": "Ralph Waldo Emerson" },
+  { "id": 13, "quote": "It is not what we get. But who we become, what we contribute… that gives meaning to our lives.", "author": "Tony Robbins" },
+  { "id": 14, "quote": "Freedom is nothing else but a chance to be better.", "author": "Albert Camus" },
+  { "id": 15, "quote": "The mind is everything. What you think you become.", "author": "Buddha" },
+  { "id": 16, "quote": "An investment in knowledge pays the best interest.", "author": "Benjamin Franklin" },
+  { "id": 17, "quote": "He who opens a school door, closes a prison.", "author": "Victor Hugo" },
+  { "id": 18, "quote": "Do what you can, with what you have, where you are.", "author": "Theodore Roosevelt" },
+  { "id": 19, "quote": "Knowing yourself is the beginning of all wisdom.", "author": "Aristotle" },
+  { "id": 20, "quote": "Happiness is the highest good.", "author": "Aristotle" }
+]
