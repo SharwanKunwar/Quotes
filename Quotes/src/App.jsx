@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Home, Smile, BookOpen, Lightbulb, Star, Heart, Trophy, Menu } from "lucide-react";
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink,Link, Outlet } from 'react-router-dom';
 
 function App() {
   const [menuSize, setMenuSize] = useState("20%");
@@ -30,7 +30,9 @@ function App() {
         {/* top div */}
         <div className='w-full pl-5 flex justify-start items-center gap-3'>
           <Menu onClick={menu} size={35} className='lg:hidden' />
-          <div className='bg-black w-[50px] h-[50px] rounded-full lg:block hidden'></div>
+          <Link to="/">
+            <div className='bg-black w-[50px] h-[50px] rounded-full lg:block hidden'></div>
+          </Link>
           <div className='lg:block hidden'>
             <h1 className='text-2xl'>Quote</h1>
             <p>inspiring Quotes</p>
@@ -62,7 +64,7 @@ function App() {
 
       {/* right */}
       <div className='bg-white lg:w-[80%] w-full h-full flex justify-end'>
-        <div className='lg:w-full w-[80%] h-full lg:p-5 p-2 overflow-y-scroll overflow-x-hidden'>
+        <div className='lg:w-full w-[80%] h-full lg:p-5 p-2 overflow-y-scroll overflow-x-hidden bg-linear-to-br from-indigo-400 to-slate-500 via-pink-400'>
           <Outlet />
         </div>
       </div>

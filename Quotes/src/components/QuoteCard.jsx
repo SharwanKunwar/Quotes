@@ -12,10 +12,10 @@ function QuoteCard({ quote, author }) {
   };
 
   return (
-    <div className='bg-linear-to-br from-indigo-100 to-white via-pink-500 w-full h-fit rounded-md shadow p-5'>
+    <div className='bg-white/30 w-full h-fit rounded-md shadow p-5'>
       <h1 className='h-[80%] w-full text-xl font-medium tracking-wide'>{quote}</h1>
-      <div className='h-[20%] flex justify-between items-center mt-5'>
-        <button onClick={copyQuote} className=' bg-white/30 backdrop-blur-sm text-white py-2 px-3 rounded-md'>Copy</button>
+      <div className='h-[20%] flex justify-between items-center mt-10'>
+        <button onClick={copyQuote} className=' bg-white/30 backdrop-blur-sm text-white py-1 px-3 rounded-md hover:bg-white/50 hover:text-indigo-500'>Copy</button>
         <p>{author}</p>
       </div>
     </div>

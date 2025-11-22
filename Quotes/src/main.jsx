@@ -9,12 +9,17 @@ import Philosopy from './pages/Philosopy.jsx'
 import Wisdom from './pages/Wisdom.jsx'
 import Love from './pages/Love.jsx'
 import Sucess from './pages/Sucess.jsx'
+import DefaultPage from './pages/DefaultPage.jsx'
 
 const router = createBrowserRouter([
   {
     path:"/",
     element: <App/>,
     children:[
+      {
+        index: true,
+        element: <DefaultPage/>
+      },
       {
         path: "inspiration",
         element: <Inspiration/>
